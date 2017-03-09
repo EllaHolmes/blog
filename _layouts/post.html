@@ -13,7 +13,7 @@ layout: default
       <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
       <h1 itemprop="name headline">{{ page.title }}</h1>
       {% if page.categories.size > 0 %}
-        <span>Posted in 
+        <span>Posted in
           {% for category in page.categories %}
             <a class="nav--white" href="{{ site.baseurl }}/category/{{ category | downcase | slugify }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}
           {% endfor %}
@@ -32,7 +32,7 @@ layout: default
   <section class="profile">
     <div class="profile__card">
       <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
+        <figure class="absolute-bg" style="background-image: url('/assets/Ella2LR.jpg');"></figure>
       </div>
       <div class="profile__container">
         <p>{{ site.profile }}</p>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Hello World"
+date: 2017-02-28
+categories:
+  - Juice
+description:
+image: https://unsplash.it/2000/1200?image=1003
+image-sm: https://unsplash.it/500/300?image=1003
+---
+Hello, my name is Ella Holmes and I am a software developer and consultant at ThoughtWorks. I graduated from a Mount Holyoke College after studying Computer Science in 2016.
+
+I love music, traveling, fluffy animals, and solving puzzles!
